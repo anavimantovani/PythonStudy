@@ -4,7 +4,7 @@
 # Assignment: Project 01 Summer 2022
 # File:       Project_01.py
 # Purpose:    Calculate the factorial of a number
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 
