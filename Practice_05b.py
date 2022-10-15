@@ -4,7 +4,7 @@
 # Assignment: Practice 5b Summer 2022
 # File:       Practice_05b.py
 # Purpose:    Turtle Spiral Curve
-#######################################################
+####################################################### 
 
 import turtle  # import turtle
 

@@ -4,7 +4,7 @@
 # Assignment: Practice 5a Summer 2022
 # File:       Practice_05a.py
 # Purpose:    Calculate the sum of numbers entered
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 

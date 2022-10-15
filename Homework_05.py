@@ -4,7 +4,7 @@
 # Assignment: Homework 05 Summer 2022
 # File:       Homework_05.py
 # Purpose:    Conversion chart for Celsius to Fahrenheit
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 
