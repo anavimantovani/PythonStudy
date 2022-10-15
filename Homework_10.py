@@ -4,7 +4,7 @@
 # Assignment: Homework 10 Summer 2022
 # File:       Homework_10.py
 # Purpose:    Game Information list
-#######################################################
+####################################################### 
 
 FILE_NAME = 'output.csv'  # Name the file
 
