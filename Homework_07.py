@@ -4,7 +4,7 @@
 # Assignment: Homework 7 Summer 2022
 # File:       Homework_07.py
 # Purpose:    Speeding Violations calculator
-#######################################################
+####################################################### 
 
 # Start the program
 def main():

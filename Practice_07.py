@@ -4,7 +4,7 @@
 # Assignment: Practice 7 Summer 2022
 # File:       Practice_07.py
 # Purpose:    Calculate the Gross Pay
-#######################################################
+####################################################### 
 
 MIN_HOUR_WORKED = 0  # Declare global constant for the min of hours worked
 MAX_HOUR_WORKED = 40  # Declare global constant for the max of hours worked
