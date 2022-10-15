@@ -4,7 +4,7 @@
 # Assignment: Practice 12 Summer 2022
 # File:       Practice_12.py
 # Purpose:    Modify a string
-#######################################################
+####################################################### 
 
 # Start the program
 def main():
