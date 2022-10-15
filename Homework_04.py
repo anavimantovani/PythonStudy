@@ -4,7 +4,7 @@
 # Assignment: Homework 4 Summer 2022
 # File:       Homework_04.py
 # Purpose:    Calculate the amount of seconds in minutes, hours and days
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 

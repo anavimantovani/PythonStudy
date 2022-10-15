@@ -4,7 +4,7 @@
 # Assignment: Practice 4 Summer 2022
 # File:       Practice_04.py
 # Purpose:    Calculate amount of cents for a game
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 
