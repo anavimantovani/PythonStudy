@@ -4,7 +4,7 @@
 # Assignment: Homework 6 Summer 2022
 # File:       Homework_06.py
 # Purpose:    Calculate an avarage and grade
-#######################################################
+####################################################### 
 
 # Start the program
 def main():

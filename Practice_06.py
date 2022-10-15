@@ -4,7 +4,7 @@
 # Assignment: Practice 6 Summer 2022
 # File:       Practice_06.py
 # Purpose:    Calculate the Kinetic Energy
-#######################################################
+####################################################### 
 
 # Start the program
 def main():
