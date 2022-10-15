@@ -4,7 +4,7 @@
 # Assignment: Extra Credit Summer 2022
 # File:       ExtraCredit.py
 # Purpose:    Rock Papers Scissors Game
-#######################################################
+####################################################### 
 
 import random  # Import the random function
 
