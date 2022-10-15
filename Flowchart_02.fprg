@@ -24,4 +24,4 @@
             <output expression="&quot;Miles per gallon: &quot; &amp; mpg" newline="True"/>
         </body>
     </function>
-</flowgorithm>
+</flowgorithm> 

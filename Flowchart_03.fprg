@@ -44,4 +44,4 @@
             <output expression="&quot;Total price: &quot; &amp; totalPrice" newline="True"/>
         </body>
     </function>
-</flowgorithm>
+</flowgorithm> 
