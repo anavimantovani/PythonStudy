@@ -4,7 +4,7 @@
 # Assignment: Homework 8 Summer 2022
 # File:       Homework_08.py
 # Purpose:    Exam grader
-#######################################################
+####################################################### 
 
 QUESTIONS_ANSWERS_USER = 20  # Total of questions on the test
 # Correct answers on the test

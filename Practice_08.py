@@ -4,7 +4,7 @@
 # Assignment: Practice 8 Summer 2022
 # File:       Practice_08.py
 # Purpose:    Lottery number generator
-#######################################################
+####################################################### 
 
 import random  # Import random numbers
 
