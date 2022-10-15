@@ -4,7 +4,7 @@
 # Assignment: Homework 9 Summer 2022
 # File:       Homework_09.py
 # Purpose:    Sort and name lookup
-#######################################################
+####################################################### 
 
 NAMES_ENTERED = 20  # Array size
 
