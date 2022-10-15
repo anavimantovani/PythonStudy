@@ -4,7 +4,7 @@
 # Assignment: Homework 03 Summer 2022
 # File:       Homework_03.py
 # Purpose:    Body Mass Index Calculator
-#######################################################
+####################################################### 
 
 # Start the program
 def main():

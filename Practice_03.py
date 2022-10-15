@@ -4,7 +4,7 @@
 # Assignment: Practice 03 Summer 2022
 # File:       Practice_03.py
 # Purpose:    Calculate the total of tickets bought
-#######################################################
+####################################################### 
 
 PRICE_TICKETS_A = 15.25  # Name the global constant for ticket A
 PRICE_TICKETS_B = 11.50  # Name the global constant for ticket B
