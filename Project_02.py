@@ -4,7 +4,7 @@
 # Assignment: Project 02 Summer 2022
 # File:       Project_02.py
 # Purpose:    Transform a string into a phone number
-#######################################################
+####################################################### 
 
 # Start the program
 def main():
