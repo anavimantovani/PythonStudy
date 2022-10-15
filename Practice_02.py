@@ -4,7 +4,7 @@
 # Assignment: Practice 2 Summer 2022
 # File:       Practice_02.py
 # Purpose:    Calculate Groceries Prices
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 

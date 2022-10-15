@@ -4,7 +4,7 @@
 # Assignment: Homework 2 Summer 2022
 # File:       Homework_02.py
 # Purpose:    Calculate Property Area in Acres
-#######################################################
+####################################################### 
 
 print('\n**  Ana Victoria Gomes Mantovani  **\n')  # Display author's name
 
