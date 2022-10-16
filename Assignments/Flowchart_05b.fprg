@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-28 09:05:35 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yODsiMDc6MzY6NDYgIjsyMDgy"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yODsiMDk6MDU6MzUgIjs3OzIxOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ana Victoria Gomes Mantovani&#13;&#10;Flowchart_05b.fprg"/>
+            <declare name="smallerNumber" type="Real" array="False" size=""/>
+            <assign variable="smallerNumber" expression="99999999999999999"/>
+            <declare name="largestNumber" type="Real" array="False" size=""/>
+            <assign variable="largestNumber" expression="0"/>
+            <declare name="number" type="Real" array="False" size=""/>
+            <assign variable="number" expression="0"/>
+            <do expression="number != -99">
+                <output expression="&quot;Enter a number between zero and one million, or -99 to stop:&quot;" newline="True"/>
+                <input variable="number"/>
+                <if expression="number &gt;= largestNumber">
+                    <then>
+                        <assign variable="largestNumber" expression="number"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="number &lt;= smallerNumber and number != -99">
+                    <then>
+                        <assign variable="smallerNumber" expression="number"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <output expression="&quot;The smallest number was: &quot; &amp; smallerNumber" newline="True"/>
+            <output expression="&quot;The largest number was: &quot; &amp; largestNumber" newline="True"/>
+        </body>
+    </function>
+</flowgorithm> 

@@ -1,0 +1,6 @@
+Hello world!
+AAA
+BBB
+CCC
+DDD
+Goodbye.

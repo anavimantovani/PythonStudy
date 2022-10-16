@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-02 08:12:25 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wOC0wMjsiMDg6MDE6NTQgIjsyMDY3"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wOC0wMjsiMDg6MTI6MjUgIjsyOzIxNzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="userName" type="String" array="False" size=""/>
+            <declare name="userAge" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your first name:&quot;" newline="True"/>
+            <input variable="userName"/>
+            <output expression="&quot;Enter your age:&quot;" newline="True"/>
+            <input variable="userAge"/>
+            <call expression="displayResults(userName, userAge)"/>
+        </body>
+    </function>
+    <function name="displayResults" type="None" variable="">
+        <parameters>
+            <parameter name="name" type="String" array="False"/>
+            <parameter name="age" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Your name is &quot; &amp; name &amp; &quot;, and your age is &quot; &amp; age" newline="True"/>
+            <output expression="&quot;In ten years you will be &quot; &amp; age + 10 &amp; &quot; years old.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
