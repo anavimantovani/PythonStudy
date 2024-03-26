@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-28 08:22:45 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yODsiMDg6MTM6MzEgIjsyMDcy"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yODsiMDg6MjI6NDUgIjsyOzIxODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="keepGoing" type="String" array="False" size=""/>
+            <declare name="sales" type="Real" array="False" size=""/>
+            <declare name="commission" type="Integer" array="False" size=""/>
+            <assign variable="keepGoing" expression="&quot;y&quot;"/>
+            <while expression="keepGoing == &quot;y&quot;">
+                <output expression="&quot;Enter the amount of sales:&quot;" newline="True"/>
+                <input variable="sales"/>
+                <assign variable="commission" expression="sales * 0.10"/>
+                <output expression="&quot;The commission is $&quot; &amp; commission" newline="True"/>
+                <output expression="&quot;Do you want to calculate another commission (y/n)?&quot;" newline="True"/>
+                <input variable="keepGoing"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

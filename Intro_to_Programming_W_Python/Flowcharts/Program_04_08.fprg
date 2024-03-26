@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-21 08:55:37 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yMTsiMDg6NDg6MzggIjsyMDgw"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yMTsiMDg6NTU6MzcgIjsxOzIxODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temperature" type="Integer" array="False" size=""/>
+            <output expression="&quot;What is the temperature outside?&quot;" newline="True"/>
+            <if expression="temperature &lt; 40">
+                <then>
+                    <output expression="&quot;A little cold, isn't it?&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nice wheater we're having.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

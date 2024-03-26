@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-19 08:48:23 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDg6NDQ6MTcgIjsyMDgw"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDg6NDg6MjMgIjsyOzIxOTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ana Victoria Gomes Mantovani&#13;&#10;Flowchart_02.fprg"/>
+            <declare name="miles" type="Real" array="False" size=""/>
+            <declare name="gallons" type="Real" array="False" size=""/>
+            <declare name="mpg" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the number of miles driven:&quot;" newline="True"/>
+            <input variable="miles"/>
+            <output expression="&quot;Enter the number of gallons of gas used:&quot;" newline="True"/>
+            <input variable="gallons"/>
+            <assign variable="mpg" expression="miles / gallons"/>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot;Miles per gallon: &quot; &amp; mpg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm> 

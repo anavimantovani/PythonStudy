@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-21 09:02:23 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yMTsiMDg6NTU6NTMgIjsyMDc1"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0yMTsiMDk6MDI6MjMgIjs1OzIxNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ana Victoria Gomes Mantovani&#13;&#10;Flowchart_04.fprg"/>
+            <declare name="books" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the amount of books purcheased:&quot;" newline="True"/>
+            <input variable="books"/>
+            <if expression="books &gt;= 4">
+                <then>
+                    <output expression="&quot;You earned 60 points.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="books == 3">
+                        <then>
+                            <output expression="&quot;You earned 30 points.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="books == 2">
+                                <then>
+                                    <output expression="&quot;You earned 15 points&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="books == 1">
+                                        <then>
+                                            <output expression="&quot;You earned 5 points.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;You earned 0 points.&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm> 

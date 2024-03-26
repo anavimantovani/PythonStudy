@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-19 08:44:16 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDg6MjE6MTEgIjsyMDY5"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDg6NDQ6MTYgIjsyOzIxODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ana Victoria Gomes Mantovani&#13;&#10;Program_02_10.fprg"/>
+            <declare name="test1" type="Real" array="False" size=""/>
+            <declare name="test2" type="Real" array="False" size=""/>
+            <declare name="test3" type="Real" array="False" size=""/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the first test score:&quot;" newline="True"/>
+            <input variable="test1"/>
+            <output expression="&quot;Enter the second test score:&quot;" newline="True"/>
+            <input variable="test2"/>
+            <output expression="&quot;Enter the third test score:&quot;" newline="True"/>
+            <input variable="test3"/>
+            <assign variable="average" expression="(test1 + test2 + test3) / 3"/>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot;Your average test score is &quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

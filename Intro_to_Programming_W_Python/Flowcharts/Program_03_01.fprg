@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-02 08:01:20 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wOC0wMjsiMDc6NTU6NTMgIjsyMDc0"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wOC0wMjsiMDg6MDE6MjAgIjsyOzIxNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;I have a message for you&quot;" newline="True"/>
+            <call expression="showMessage()"/>
+            <output expression="&quot;That's all folks!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="showMessage" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello world!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

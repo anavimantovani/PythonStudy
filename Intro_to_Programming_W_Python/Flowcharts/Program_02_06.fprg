@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anavi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-19 08:18:29 "/>
+        <attribute name="created" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDc6NTY6NDUgIjsyMDgz"/>
+        <attribute name="edited" value="YW5hdmk7VkktUEM7MjAyMi0wNy0xOTsiMDg6MTg6MjkgIjsxOzIxOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ana Victoria Gomes Mantovani&#13;&#10;Program_02_06.fprg"/>
+            <declare name="dollars" type="Real" array="False" size=""/>
+            <assign variable="dollars" expression="2.75"/>
+            <output expression="&quot;I have &quot; &amp; dollars &amp; &quot; in my account.&quot;" newline="True"/>
+            <assign variable="dollars" expression="99.95"/>
+            <output expression="&quot;But now i have &quot;" newline="False"/>
+            <output expression="dollars" newline="False"/>
+            <output expression="&quot; in my account!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
