@@ -1,0 +1,8 @@
+print('AAA')
+print('BBB')
+print()
+print('CCC')
+print('DDD')
+print()
+print('EEE')
+print('FFF')
