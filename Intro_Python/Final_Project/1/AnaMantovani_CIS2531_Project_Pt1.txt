@@ -1,0 +1,12 @@
+Database - Ana Victoria Gomes Mantovani - 06/20/2023
+
+I will build a database of books.
+
+For each book in my database, I will store it's name (string), genre (string), and number of pages (int).
+
+There are no rules for name.
+
+For the genre, the legal values should be:
+Art, Biography, Children, Classic, Comedy, Comic, Cookbook, Crime, Fantasy, Fiction, History, Horror, LGBTQ, Manga, Music, Mystery, Nonfiction, Science, Thriller, Romance.
+
+For the number of pages, the value cannot be negative.

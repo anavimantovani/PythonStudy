@@ -1,0 +1,27 @@
+Enter the title of a book: The DaVinci Code
+
+Enter a genre of the book: historical
+Invalid genre entered. Please select from the list: ['Art', 'Biography', 'Children', 'Classic', 'Comedy', 'Comic', 'Cookbook', 'Crime', 'Fantasy', 'Fiction', 'History', 'Horror', 'LGBTQ', 'Manga', 'Music', 'Mystery', 'Nonfiction', 'Science', 'Thriller', 'Romance']      
+
+Enter a genre of the book: ficTION
+
+Enter a second genre of the book: NOVEL
+Invalid genre entered. Please select from the list: ['Art', 'Biography', 'Children', 'Classic', 'Comedy', 'Comic', 'Cookbook', 'Crime', 'Fantasy', 'Fiction', 'History', 'Horror', 'LGBTQ', 'Manga', 'Music', 'Mystery', 'Nonfiction', 'Science', 'Thriller', 'Romance']      
+
+Enter a second genre of the book: MYSTERY
+
+Enter the number of pages in the book: -123
+Number of pages cannot be negative or zero. Please try again.
+
+Enter the number of pages in the book: 123.4
+Invalid input. Please enter a valid integer.
+
+Enter the number of pages in the book: 0
+Number of pages cannot be negative or zero. Please try again.
+
+Enter the number of pages in the book: 120
+
+Book:
+Title: The DaVinci Code
+Genres: Fiction and Mystery
+Num of pages: 120
